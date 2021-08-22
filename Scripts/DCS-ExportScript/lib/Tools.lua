@@ -887,9 +887,9 @@ function ExportScript.Tools.RoundFreqeuncy(Freqeuncy, Format, PrefixZeros, Least
 
 	tmpstring = string.format("%."..tmp2.."f", tmpstring)
 	
---	while string.len(tmpstring) < tmp1 do
---		tmpstring = " "..tmpstring
---	end
+    --	while string.len(tmpstring) < tmp1 do
+    --		tmpstring = " "..tmpstring
+    --	end
 	
 	tmpstring = string.rep(" ", tmp1 - string.len(tmpstring))..tmpstring
 

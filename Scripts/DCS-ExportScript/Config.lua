@@ -11,7 +11,7 @@ ExportScript.Version.Config = "1.2.1"
 -- Ikarus a Glass Cockpit Software
 ExportScript.Config.IkarusExport    = true         -- false for not use
 ExportScript.Config.IkarusHost      = "127.0.0.1"  -- IP for Ikarus
-ExportScript.Config.IkarusPort      = 1625         -- Port Ikarus (1625)
+ExportScript.Config.IkarusPort      = 1725         -- Port Ikarus (1625)
 ExportScript.Config.IkarusSeparator = ":"
 
 -- D.A.C. (DCS Arcaze Connector)
@@ -37,7 +37,7 @@ ExportScript.Config.ExportInterval         = 0.05	-- export evry 0.05 secounds
 ExportScript.Config.ExportLowTickInterval  = 0.5	-- export evry 0.5 secounds
 ExportScript.Config.LogPath                = lfs.writedir()..[[Logs\Export.log]]
 ExportScript.Config.ExportModulePath       = lfs.writedir()..[[Scripts\DCS-ExportScript\ExportsModules\]]
-ExportScript.Config.Debug                  = false
+ExportScript.Config.Debug                  = true
 ExportScript.Config.SocketDebug            = false
 ExportScript.Config.FirstNewDataSend       = true
 ExportScript.Config.FirstNewDataSendCount  = 100
